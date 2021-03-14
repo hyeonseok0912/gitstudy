@@ -4,7 +4,7 @@ public class Fahrenheit {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("화씨온도 입력 : "); 
+		System.out.println("화씨온도 입력 : ");
 	 
 		int fahrenheit; 
 	    fahrenheit = sc.nextInt();
