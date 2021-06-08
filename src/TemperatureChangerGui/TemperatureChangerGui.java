@@ -32,7 +32,7 @@ public class TemperatureChangerGui extends JFrame {
       panel3.add(button);
       button.addActionListener(e -> {
          if (cTemp.getText().isEmpty())
-            fTemp.setText("??????");
+            fTemp.setText("");
          else {
             String s = cTemp.getText();
             double c = Double.parseDouble(s);
